@@ -3,7 +3,7 @@
 Solve this pair of simultaneous nonlinear equations by first eliminating y and then solving the resulting
 equation in x by Newton’s method. Start with the initial value x0 = 1:0.
 
-Computer exercise 3.2.22
+Computer exercise 3.2.22 of Kincaid, Cheney <Numerical Mathematics and Computing 6th edition> 
 solved by linear systems 
 """
 
