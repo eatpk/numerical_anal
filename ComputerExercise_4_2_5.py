@@ -4,6 +4,9 @@
 of degree 15. Determine how accurate the approximation is by numerical test. Use equally spaced
 nodes.
 
+Computer exercise 4.2.5 of Kincaid, Cheney <Numerical Mathematics and Computing 7th edition> 
+solved by linear systems 
+
 '''
 import numpy as np
 import matplotlib.pyplot as plt
