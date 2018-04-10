@@ -28,7 +28,6 @@ def Newton(t,x,y):
 
 x= np.linspace(-np.sqrt(1/2),np.sqrt(1/2),16)
 y = []
-np.arcsin(x)
 for i in range(0,16):
     y.append(np.arcsin(x[i]))
 m = 10000
