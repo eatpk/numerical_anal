@@ -79,10 +79,8 @@ def spline(x,z,t,y):
     h=t[i+1]-t[i]
     
     #see eq.(5) of p.267
-    S= z[i+1]/(6*h) * (x-t[i])**3
-    S +=z[i]/(6*h)*(t[i+1]-x)**3
-    S += (y[i+1]/h - h/6*z[i+1]) *(x-t[i])
-    S +=(y[i]/h - h/6*z[i]) *(t[i+1]-x)
+    S= z[i+1]/(6*h) * (x-t[i])**3 + z[i]/(6*h)*(t[i+1]-x)**3 +\
+    (y[i+1]/h - h/6*z[i+1]) *(x-t[i]) + (y[i]/h - h/6*z[i]) *(t[i+1]-x)
     return S
 t=[-1,0,1]
 y=[1,2,-1]
