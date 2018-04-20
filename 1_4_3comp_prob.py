@@ -1,5 +1,5 @@
 '''
-[Computer Exercises 1.4.3] Alter and test the pseudocode in the text for computing x􀀀sin x by using nested
+[Computer Exercises 1.4.3] Alter and test the pseudocode in the text for computing x-sin x by using nested
 multiplication to evaluate the series.
 '''
 
