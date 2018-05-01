@@ -6,7 +6,7 @@ integral[0->2pi] e^(-x)cos(x) dx = 0.499066278634
 using 32 applications of each basic rule.
 
 
-Cheney, Kincaid, <Numerical Methods and Computing> 7th ed.
+Cheney, Kincaid, <Numerical Mathematics and Computing> 7th ed.
 """
 
 import numpy as np
