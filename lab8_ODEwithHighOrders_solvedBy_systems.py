@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 #high Order-> making system, rendering equations to first order to solve
-
+highest_order=3
 def f(t,x):
-    v=np.zeros(3)#vector type
+    v=np.zeros(highest_order)#vector type
     
     v[0]=x[1]
     v[1]=x[2]
@@ -24,7 +24,7 @@ a=0#Domain [a,b]
 b=1
 
 n=101
-x=np.zeros((n,3))
+x=np.zeros((n,highest_order))
 t=np.linspace(a,b,n) #t= a + hi ->this is equivalent to linspace
 h=(b-a)/(n-1)
 
