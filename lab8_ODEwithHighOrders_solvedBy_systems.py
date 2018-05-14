@@ -31,7 +31,7 @@ h=(b-a)/(n-1)
 x[0,0]=3#initial value(boundary problem)
 x[0,1]=7
 x[0,2]=13#x[time,order]
-
+#x[0,3]....x[0,highest_order-1]=k
 
 
 for i in range(n-1):
