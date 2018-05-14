@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-#Runge-kutta 2 is...
+#Solving ODE with Runge-Kutta Method
+
+#For example, Runge-kutta 2 is...
 #x(t+h)=x(t)+0.5(K1+K2)
 #K1=hf(t,x)
 #K2=hf(t+h,x+K1)
