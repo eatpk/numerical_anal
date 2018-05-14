@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 '''
+Solving ODE with Taylor Method
     x'=1+x^2+t^3
     x''=2xx'+3t^2
     x```=2xx``+2x`x`+6t
