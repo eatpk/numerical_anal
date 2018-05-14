@@ -7,7 +7,9 @@ def f(t,x):
     
     v[0]=x[1]
     v[1]=x[2]
-    v[2]= np.cos(x[0])+np.sin(x[1])-np.exp(x[2])+t**2
+    #...v[2]=x[3]\v[3]=x[4]\....v[higest_order-2]=x[highest_order-1]
+    v[highest_order-1]= np.cos(x[0])+np.sin(x[1])-np.exp(x[2])+t**2
+    
     return v
 
 def Runge_Kutta4(f,x,t,h):
