@@ -40,7 +40,7 @@ def Quadrature(f,a,b,n):
     
     for i in range(n):
         for j in range(m):
-            xi[j] = 0.5 *(t[i+1]-t[i])*w[j] + 0.5*(t[i]+t[i+1])
+            xi[j] = 0.5 *(t[i+1]-t[i])*x[j] + 0.5*(t[i]+t[i+1])
             wi[j]= 0.5*(t[i+1]-t[i])*w[j]
             Q= Q + wi[j]*f(xi[j])
     return Q
