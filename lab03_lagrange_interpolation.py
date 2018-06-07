@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def l(t,x,i):#t is x, x는 node에서의 값(array), i is index
+def l(t,x,i):#t is x, x is value in the node(array), i is index
     
     n=len(x)
     val = float(1)
