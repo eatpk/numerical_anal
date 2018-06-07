@@ -16,7 +16,7 @@ def Simpsons_rule(f,a,b,n):
     
     S=  h/3 * (f(x[0])+f(x[n]))
     
-    for i in range(1,n//2+1):# //<-getting only 몫
+    for i in range(1,n//2+1):# //<-getting only quotient(몫)
         S = S + 4/3 *h*f(x[2*i-1])
         
     for i in range(1,n//2-1 +1):
