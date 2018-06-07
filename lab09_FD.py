@@ -2,14 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def Gauss(A,B) :
-    n = A.shape[0] # 행은 0 열은 1
+    n = A.shape[0] # row:0 col:1
     
     l = np.zeros(n,dtype=np.int) # index vector
     s = np.zeros(n) # scale vector
     X = np.matrix(np.zeros(n))
     X = X.T  # transpose
     
-    # 기본 행 벡터로 잡는다
+    # taking it as basic row vector
     
     for i in range(n) :
         l[i] = i
