@@ -23,7 +23,7 @@ def bisection(a,b):
         if(b_sign==c_sign):
             b=c
         err=abs(a-b)
-        print(i,"번째실행 결과:",c)
+        print(i,"trial:",c)
         i=i+1
     return (a+b)/2
 
@@ -38,7 +38,7 @@ def newton(x0):
         x=x-f(x)/df(x)
         err=abs(x-new)
         j=j+1
-        print(j,"번째시도",x)
+        print(j,"trial",x)
     return x
     
 #k=bisection(0.5,2)
