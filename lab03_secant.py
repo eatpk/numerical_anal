@@ -15,7 +15,7 @@ def secant(g,x0,x1):
         x= x1 - (x1-x0)/(g(x1)-g(x0)) *g(x1)
         x0=x1
         x1=x
-        print(i,"번째 Trial & Value : ",x)
+        print(i,"Trial & Value : ",x)
         err=abs(x1-x0)
         
     return x
@@ -23,5 +23,5 @@ def secant(g,x0,x1):
 k1=secant(f,1,2)
 print(k1)
 print(f)
-print("검산:",f(k1),"==0?")
+print(":",f(k1),"==0?")
 
